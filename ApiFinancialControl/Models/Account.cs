@@ -9,7 +9,6 @@ public class Account
     [Column("Id")]
     [Display(Name = "Id")]
 
-    [Required(ErrorMessage = "O ID da  é obrigatório")]
     public int Id { get; set; }
 
     [Column("name")]
